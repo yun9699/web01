@@ -1,0 +1,52 @@
+@media all and(max-width: 960px){
+	.ul{
+		width: 600px;
+		background-color: blue;
+    }
+}
+@media all and(max-width: 480px){
+	.ul{
+		width: 1020px;
+		height: 400px;
+    }
+}
+.container {display: flex; flex-direction: column; justify-content: center; align-items: center; padding:3em;}
+
+#wrap{width: 650px; border:1px soild red; 
+        margin:auto; padding-top: 10px; overflow: hidden; }
+article{float: left; margin-left: 10px; margin-bottom: 10px;}
+img{border-bottom: 1px solid black; display: block;}
+
+
+
+
+/* 객실네비게이션 */
+nav{margin-bottom: em ;}
+ul{display: flex; justify-content: center;}
+li{list-style: none; margin-right: 0.5em; margin-top: 20px; padding:0.5em;}
+li:hover{color:white; background-color: steelblue; border-radius: 2px;}
+
+
+/* 객실선택리스트 */
+ul li
+    {list-style-type: none; text-align: center; padding: 20px;}
+.ul{display: grid;
+    min-height: 88px;
+    padding: 10px 0px;
+    border-bottom: 1px solid var color(grey);
+    grid-template-columns: 500px 200px 160px auto 111px;
+    grid-template-rows: 1fr;
+    grid-template-columns: 500px 200px 160px auto 111px;
+    grid-template-rows: 1fr;}
+button{cursor: pointer; position: relative;
+    display: block;
+    margin: 0px;}
+
+    table{ table-layout: fixed;
+        text-align: left;
+        width: 100%;
+        border-top: 1px solid #444444;
+        border-collapse: collapse;}
+    th,td {border-bottom: 1px solid #444444; padding: 10px;}
+    .jb-th-1 { width: 130px; height: 80px;}
+
